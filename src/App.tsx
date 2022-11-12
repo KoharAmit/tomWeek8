@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 // common components
 import Header from "./Views/components/header"
+import Footer from "./Views/components/footer"
 
 // adding styles and fonts
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Header></Header>
         <h1 className="container">Hello World</h1>
+<Footer></Footer>
     </div>
   );
 }
